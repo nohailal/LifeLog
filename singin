@@ -1,0 +1,56 @@
+import React from 'react';
+import './singin.css';
+import React, { useState } from "react";
+
+
+
+
+function singin() {
+    return (
+<div class="container">
+  <div class="heading">SignIn to your account</div>
+  <form class="form" action="">
+    <div class="input-field">
+      <input
+        required=""
+        autocomplete="off"
+        type="text"
+        name="text"
+        id="username"
+      />
+      <label for="username">Full Name</label>
+    </div>
+    <div class="input-field">
+      <input
+        required=""
+        autocomplete="off"
+        type="email"
+        name="email"
+        id="email"
+      />
+      <label for="email">Email</label>
+    </div>
+    <div class="input-field">
+      <input
+        required=""
+        autocomplete="off"
+        type="password"
+        name="text"
+        id="password"
+      />
+      <label for="username">Password</label>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn">Submit</button>
+      <div class="acc-text">
+        New here ?
+        <span style="color : #0000ff; cursor : pointer;">Create Account</span>
+      </div>
+    </div>
+  </form>
+</div>
+ );
+}
+
+export default singin;
