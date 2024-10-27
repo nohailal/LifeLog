@@ -1,0 +1,22 @@
+// Header.js
+import React from 'react';
+import './Header.css';
+
+function Header() {
+  return (
+    <header className="header">
+      <div className="logo">
+        <img src="logo.png" alt="Lifelog Logo" /> {/* Replace with your logo path */}
+        <h1>LIFELOG</h1>
+      </div>
+      <nav className="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#offering">offering</a>
+      </nav>
+      <button className="login-btn">login</button>
+    </header>
+  );
+}
+
+export default Header;
