@@ -1,0 +1,18 @@
+import React from 'react'
+import Header from '../components/header';
+import MainContent from '../components/mainpage';
+import Footer from '../components/footer';
+import "../style/Landing.css"
+
+
+function Landingpage() {
+  return (
+    <div className='container'>
+    <Header />
+    <MainContent />
+    <Footer />
+    </div>
+  )
+}
+
+export default Landingpage
