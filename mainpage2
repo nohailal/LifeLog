@@ -1,0 +1,43 @@
+
+import React from 'react';
+import '../style/mainpage.css';
+import bk from "../style/pics/bkh.jpg"
+
+function MainContent() {
+  return (
+    <main className="main-content">
+      <div className='intro-container'>
+      <section className="intro">
+        <h2>Your Life, Your Story.</h2>
+        <p>"Preserve your journey, one moment at a time."</p>
+        <p>"A lifetime of memories, beautifully organized."</p>
+        <button className="signin-btn">sign in</button>
+      </section>
+      </div>
+      <section className="features">
+        <div className="feature">
+          <h3>Health Journal</h3>
+          <p>Track your progress , nurture you health , live your best life . Empower your health journey </p>
+        </div>
+        <div className="feature">
+          <h3>Blog</h3>
+          <p>share your voice ,share your outfit and show your music test.Express yourself.</p>
+        </div>
+        <div className="feature">
+          <h3>TO-DO List</h3>
+          <p>Stay focused,stay productive,stay on track.Organize your tasks .</p>
+        </div>
+        <div className="feature">
+          <h3>Secret Diary</h3>
+          <p>Your private world, your deepest thoughts , your hidden truths .A place to confide  and truly be yourself “a place to be yourself , for your eyes only”</p>
+        </div>
+        <div className="feature">
+          <h3>Follow Your Steps</h3>
+          <p>every step counts,trace your journey ,learn from each step ,grow along the way,discover yourself.</p>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+export default MainContent;
