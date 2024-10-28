@@ -1,0 +1,24 @@
+import React from 'react';
+import '../style/header.css';
+import { Link } from 'react-router-dom';
+import logo from '../style/pics/logo.png';
+
+function Header() {
+  return (
+    <header className="header">
+      <div className="logo">
+        <img src={logo} alt="Lifelog Logo" />
+      </div>
+      <nav className="nav">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#offering">offering</a>
+      </nav>
+      <Link to="/form">
+        <button className="login-btn">login</button>
+      </Link>
+    </header>
+  );
+}
+
+export default Header;
