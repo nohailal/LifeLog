@@ -1,0 +1,24 @@
+import React from "react";
+import "../styles/AboutSection.css";
+import image from "../images/about.png";
+import { Link } from 'react-router-dom';
+
+function AboutSection() {
+  return (
+    <section className="about-section">
+      <div className="about-image">
+      <img src={image} alt="about" className='about-image' />
+      </div>
+      <div className="about-content">
+        <h2>About LifeLog</h2>
+        <p><b>LifeLog</b> is your personal digital journal, designed to capture every moment and insight of your life journey. </p>
+        <p> Whether you're tracking health, mood, daily tasks, or personal achievements, <b>LifeLog</b> provides a secure and intuitive platform to document, reflect, and understand your life better</p>
+        <a href="About" className="link"> <Link to="/about">Lear more About us</Link></a>      
+      </div>
+    </section>
+  );
+}
+
+export default AboutSection;
+
+
