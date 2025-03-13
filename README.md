@@ -3,11 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=nohailal&label=Profile%20views&color=0e75b6&style=flat" alt="nohailal" /> </p>
 
-- 🔭 I’m currently working on [LifeLog](https://github.com/nohailal/LifeLogv2)
+- 🔭 I’m currently working on [LifeLog](https://github.com/nohailal/LifeLog)
 
 - 🌱 I’m currently learning **react.js and tailwind**
 
-- 👨‍💻 All of my projects are available at [https://github.com/nohailal/LifeLogv2](https://github.com/nohailal/LifeLogv2)
+- 👨‍💻 All of my projects are available at [https://github.com/nohailal/LifeLogv2](https://github.com/nohailal/LifeLog)
 
 - 📫 How to reach me **nohaila141@gmail.com**
 
