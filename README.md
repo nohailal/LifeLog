@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **react.js and tailwind**
 
-- 👨‍💻 All of my projects are available at [https://github.com/nohailal/LifeLogv2](https://github.com/nohailal/LifeLog)
+- 👨‍💻 All of my projects are available at [https://github.com/nohailal/LifeLog](https://github.com/nohailal/LifeLog)
 
 - 📫 How to reach me **nohaila141@gmail.com**
 
