@@ -127,27 +127,6 @@ export default function Team() {
         </div>
       </nav>
       
-      {/* Hero Banner */}
-      {/* <div className="relative bg-gradient-to-r from-pink-500 to-purple-600 h-64 md:h-72">
-        <div className="absolute inset-0 bg-[url('/src/assets/pattern.svg')] opacity-15 mix-blend-soft-light"></div>
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-pink-900/20"></div>
-        <div className="container mx-auto px-6 max-w-6xl h-full flex flex-col justify-center items-center relative z-10">
-          <h1 className={`text-4xl md:text-5xl font-bold text-white tracking-tight mb-3 transform transition-all duration-1000 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-12'
-          }`}>
-            Meet Our Team
-          </h1>
-          <div className={`h-1 w-20 bg-white/80 rounded mb-4 transform transition-all duration-700 delay-300 ${
-            isVisible ? 'opacity-100 scale-x-100' : 'opacity-0 scale-x-0'
-          }`}></div>
-          <p className={`text-lg text-white/90 max-w-lg mx-auto text-center transition-all duration-1000 delay-500 ${
-            isVisible ? 'opacity-100' : 'opacity-0'
-          }`}>
-            Passionate professionals dedicated to excellence and innovation
-          </p>
-        </div>
-      </div> */}
-      
       {/* Team Section */}
       <section className="bg-gradient-to-b from-pink-50 via-white to-pink-50 py-24 overflow-hidden">
         <div className="container mx-auto px-6 max-w-6xl">
@@ -222,34 +201,14 @@ export default function Team() {
                   <p className="text-pink-600 font-medium mb-3 text-sm">
                     {member.role}
                   </p>
-                  <p className="text-gray-500 text-sm mb-4">
+                  <p className="text-gray-500 text-sm">
                     {member.bio}
                   </p>
-                  <div className="pt-4 border-t border-pink-100 flex justify-end">
-                    <button className="text-sm font-medium text-pink-600 hover:text-pink-800 transition-colors duration-300 relative overflow-hidden group flex items-center">
-                      <span className="relative z-10">View Full Profile</span>
-                      <svg className="ml-1.5 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-                      </svg>
-                      <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-pink-400 group-hover:w-full transition-all duration-300"></span>
-                    </button>
-                  </div>
                 </div>
               </div>
             ))}
           </div>
-{/* 
-          <div className={`mt-16 text-center transition-all duration-1000 delay-700 transform ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}>
-            <button className="inline-flex items-center px-6 py-3 bg-pink-600 text-white rounded-lg shadow-md hover:bg-pink-700 transition-all duration-300 font-medium relative overflow-hidden group">
-              <span className="relative z-10">View All Team Members</span>
-              <svg className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-              <span className="absolute inset-0 h-full w-0 bg-pink-700 left-0 top-0 group-hover:w-full transition-all duration-300 -z-0"></span>
-            </button>
-          </div> */}
+
         </div>
 
         {/* Stats Section */}
