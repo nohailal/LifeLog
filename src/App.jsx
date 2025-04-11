@@ -6,7 +6,8 @@ import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import SettingsLayout from './components/Settings/SettingsLayout';
 import AccountSettings from './components/Settings/settings/AccountSettings';
-import PrivacySettings from './components/Settings/settings/PrivacySettings';
+import Privacy from './components/terms and privicy/PrivacyPolicy';
+import Terms from './components/terms and privicy/Tearms';
 import PersonalSettings from './components/Settings/settings/PersonalSettings';
 import TodoListApp from './pages/todoList';
 import Contact from '@/pages/Contact';
@@ -25,6 +26,8 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
           
           <Route path="/home" element={
             <MainLayout>
@@ -33,15 +36,15 @@ function App() {
           } />
           
           <Route path="/Team" element={
-        
+            <MainLayout>
               <Team />
-           
+            </MainLayout>
           } />
           
           <Route path="/About" element={
-         
+            <MainLayout>
               <About />
-         
+            </MainLayout>
           } />
           
           <Route path="/settings" element={
@@ -51,7 +54,7 @@ function App() {
           }>
             <Route index element={<Navigate to="/settings/account" replace />} />
             <Route path="account" element={<AccountSettings />} />
-            <Route path="privacy" element={<PrivacySettings />} />
+            <Route path="Privacy" element={<Privacy />} />
             <Route path="personal" element={<PersonalSettings />} />
           </Route>
           
