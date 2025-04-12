@@ -6,7 +6,7 @@ import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import SettingsLayout from './components/Settings/SettingsLayout';
 import AccountSettings from './components/Settings/settings/AccountSettings';
-import AccountSettings from './components/Settings/settings/PersonalSettings';
+import PrivacySettings from './components/Settings/settings/PersonalSettings';
 import Privacy from './components/terms and privicy/PrivacyPolicy';
 import Terms from './components/terms and privicy/Tearms';
 import PersonalSettings from './components/Settings/settings/PersonalSettings';
