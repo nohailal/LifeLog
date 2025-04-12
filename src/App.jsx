@@ -6,6 +6,7 @@ import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import SettingsLayout from './components/Settings/SettingsLayout';
 import AccountSettings from './components/Settings/settings/AccountSettings';
+import AccountSettings from './components/Settings/settings/PersonalSettings';
 import Privacy from './components/terms and privicy/PrivacyPolicy';
 import Terms from './components/terms and privicy/Tearms';
 import PersonalSettings from './components/Settings/settings/PersonalSettings';
@@ -17,6 +18,7 @@ import Team from './components/team/Team';
 import About from '@/components/about us/About';
 import MainLayout from '@/components/layout/MainLayout';
 import { ThemeProvider } from "@/theme/ThemeProvider";
+import PrivacySettings from './components/Settings/settings/PrivacySettings';
 
 function App() {
   return (
@@ -46,7 +48,7 @@ function App() {
           }>
             <Route index element={<Navigate to="/settings/account" replace />} />
             <Route path="account" element={<AccountSettings />} />
-            <Route path="Privacy" element={<Privacy />} />
+            <Route path="Privacy" element={<PrivacySettings />} />
             <Route path="personal" element={<PersonalSettings />} />
           </Route>
           
