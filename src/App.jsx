@@ -6,10 +6,10 @@ import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import SettingsLayout from './components/Settings/SettingsLayout';
 import AccountSettings from './components/Settings/settings/AccountSettings';
-import PrivacySettings from './components/Settings/settings/PersonalSettings';
+import PrivacySettings from './components/Settings/settings/PrivacySettings';
+import PersonalSettings from './components/Settings/settings/PersonalSettings';
 import Privacy from './components/terms and privicy/PrivacyPolicy';
 import Terms from './components/terms and privicy/Tearms';
-import PersonalSettings from './components/Settings/settings/PersonalSettings';
 import TodoListApp from './pages/todoList';
 import Contact from '@/pages/Contact';
 import Blog from './pages/blogPage';
@@ -18,7 +18,7 @@ import Team from './components/team/Team';
 import About from '@/components/about us/About';
 import MainLayout from '@/components/layout/MainLayout';
 import { ThemeProvider } from "@/theme/ThemeProvider";
-import PrivacySettings from './components/Settings/settings/PrivacySettings';
+
 
 function App() {
   return (
