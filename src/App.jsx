@@ -35,17 +35,9 @@ function App() {
             </MainLayout>
           } />
           
-          <Route path="/Team" element={
-            <MainLayout>
-              <Team />
-            </MainLayout>
-          } />
+          <Route path="/Team" element={<Team />} />
           
-          <Route path="/About" element={
-            <MainLayout>
-              <About />
-            </MainLayout>
-          } />
+          <Route path="/About" element={<About />    } />
           
           <Route path="/settings" element={
             <MainLayout>
