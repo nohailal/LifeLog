@@ -13,15 +13,15 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/nohailal/LifeLog](https://github.com/nohailal/LifeLog)
 
-- 📝 install the project in ur device and use [npm install](npm install)
+- 📝 install the project in ur device and use [npm install]
 
 - 📫 How to reach me **nohaila141@gmail.com**
 
-- 📄 don't forget to download the other packeges [react-router-dom /react toolkit](react-router-dom /react toolkit)
+- 📄 don't forget to download the other packeges [react-router-dom /react toolkit]
 
 - ⚡ Fun fact **LifeLog was going to be a mentally health tracking website**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
