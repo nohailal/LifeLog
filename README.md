@@ -1,8 +1,4 @@
 <h1 align="center">Hi 👋 this is LIFELOG</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nohailal&label=Profile%20views&color=0e75b6&style=flat" alt="nohailal" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nohailal" alt="nohailal" /></a> </p>
-
 - 🔭**LifeLog** helps you track your daily activities, boost your mental well-being, and stay on top of your goals—all in one place. [https://github.com/nohailal/LifeLog](https://github.com/nohailal/LifeLog)
 
 - 🌱LifeLog is made with **react.js and tailwind**
@@ -30,10 +26,8 @@
 
 
 <h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/nohaila"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="nohaila" /></a><a href="https://ko-fi.com/nohaila"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="nohaila" /></a></p><br><br>
+<p><a href="https://ko-fi.com/nohaila"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="nohaila" /></a></p><br><br>
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=nohailal&show_icons=true&locale=en&layout=compact" alt="nohailal" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nohailal&show_icons=true&locale=en" alt="nohailal" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=nohailal&show_icons=true&locale=en&layout=compact" alt="nohailal" /></p>
 
