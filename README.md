@@ -1,9 +1,8 @@
 <h1 align="center">Hi 👋 this is LIFELOG</h1>
-<<<<<<< HEAD
-=======
 
 
->>>>>>> df9453c93c10918ac08779fa73f67b04b9724225
+
+
 - 🔭**LifeLog** helps you track your daily activities, boost your mental well-being, and stay on top of your goals—all in one place. [https://github.com/nohailal/LifeLog](https://github.com/nohailal/LifeLog)
 
 - 🌱LifeLog is made with **react.js and tailwind**
@@ -34,8 +33,5 @@
 <p><a href="https://ko-fi.com/nohaila"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="nohaila" /></a></p><br><br>
 
 
-<<<<<<< HEAD
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=nohailal&show_icons=true&locale=en&layout=compact" alt="nohailal" /></p>
-=======
->>>>>>> df9453c93c10918ac08779fa73f67b04b9724225
 
