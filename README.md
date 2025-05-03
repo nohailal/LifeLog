@@ -1,7 +1,5 @@
 <h1 align="center">Hi 👋 this is LIFELOG</h1>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=nohailal&label=Profile%20views&color=0e75b6&style=flat" alt="nohailal" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nohailal" alt="nohailal" /></a> </p>
 
 - 🔭**LifeLog** helps you track your daily activities, boost your mental well-being, and stay on top of your goals—all in one place. [https://github.com/nohailal/LifeLog](https://github.com/nohailal/LifeLog)
 
